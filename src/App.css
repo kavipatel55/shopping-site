@@ -1,0 +1,60 @@
+body {
+  background-color: #050505;
+  color: #00e439;
+}
+  .Navbar {
+    flex-wrap: nowrap;
+  }
+  
+  .NavbarBrand {
+    flex: 1;
+    text-align: center;
+  }
+  
+.card {
+  margin: 10px 0;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.product-price {
+  color: #a75b28;
+  font-size: 1.25rem;
+}
+
+.btn-add-to-cart {
+  margin-top: auto;
+}
+
+.account-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.save-message {
+  text-align: center;
+  margin-top: 10px;
+}
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
